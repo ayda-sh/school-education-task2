@@ -3,7 +3,7 @@ import { Header } from "./components/header";
 import { MainSec } from "./components/main-sec";
 import { Nav } from "./components/nav";
 
-// import "./App.css"
+
 
 function App() {
  return (
