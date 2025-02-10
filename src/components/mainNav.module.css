@@ -1,0 +1,28 @@
+.mainnav {
+    display: flex;
+    margin: 0 50px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #262626;
+    border-radius: 8px;
+}
+
+.mainnav ul {
+    display: flex;
+    gap: 25px;
+}
+
+.mainnav ul li {
+   list-style: none;
+
+}
+
+.mainnav ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    color: #262626;
+    padding: 5px;
+}
+
+
+

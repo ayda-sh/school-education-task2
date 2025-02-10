@@ -1,0 +1,18 @@
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    background-image: url("src/assets/Top-Banner.png");
+    margin: 18px 50px;
+    background-size: cover;
+    background-repeat: round;
+    border: 2px solid #262626;
+    border-radius: 8px;
+}
+
+.topnav img {
+    width: 20px;
+    height: 20px;
+}
+
