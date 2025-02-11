@@ -1,13 +1,27 @@
+import { ServicesCard } from "./servicesCard";
 
 export function ServicesBox() {
     return (
-        <div> 
-
-              <img src="" alt="" />
-              <h4>Language Arts</h4>
-              <p>Reading, writing, storytelling, and communication skills.</p>
-        
-          
+       <div>
+         <div> 
+            <ServicesCard/>
         </div>
+        <div> 
+            <ServicesCard/>
+        </div>
+        <div> 
+            <ServicesCard/>
+        </div>
+        <div> 
+            <ServicesCard/>
+        </div>
+        <div> 
+            <ServicesCard/>
+        </div>
+        <div> 
+            <ServicesCard/>
+        </div>
+       </div>
+        
     )
 }

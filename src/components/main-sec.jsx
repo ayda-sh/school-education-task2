@@ -15,7 +15,7 @@ export function MainSec() {
               <Card/>
            </div>
 
-           <div>
+           <div className={styles.featuressection}>
               <Button/>
               <h2>What Students Learn</h2>
               <p>
