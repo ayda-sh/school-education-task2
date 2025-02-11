@@ -1,8 +1,10 @@
 import { CardBox } from "./cardBox";
 
+import styles from "./card.module.css"
+
 export function Card() {
     return (
-        <div>
+        <div className={styles.card}>
             <div>
                 <CardBox />
             </div>

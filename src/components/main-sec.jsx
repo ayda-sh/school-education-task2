@@ -1,14 +1,18 @@
 import { Button } from "./button";
 import { Card } from "./card";
 
+import styles from "./mainsec.module.css"
+
 export function MainSec() {
     return (
     
          <section>
-            <Button/>
-            <h2>Extracurricular Activities</h2>
-            <p>At Little Learners Academy, we believe in nurturing well-rounded individuals. Our extracurricular activities offer a diverse range of experiences that complement our academic curriculum and encourage students to explore their interests and passions. We offer a wide array of extracurricular activities, including</p>
+           <div className={styles.featuressection}>
+           <Button/>
+            <h2>Our Special Features</h2>
+           <p className={styles.par}>Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
             <Card/>
+           </div>
         </section>
     
     )
