@@ -1,0 +1,18 @@
+.gallerytab {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.gallerytab button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1A1A1A;
+    border: 2px solid #333333
+
+}
+
+.gallerytab button:hover {
+    background-color: #FFEFE5;
+}

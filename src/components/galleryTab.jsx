@@ -1,6 +1,8 @@
+import styles from "./galleryTab.module.css"
+
 export function GalleryTab() {
     return (
-        <div>
+        <div className={styles.gallerytab}> 
             <button>All</button>
             <button>Classrooms</button>
             <button>Library</button>
