@@ -1,7 +1,9 @@
 import { Button } from "./button";
 import { Card } from "./card";
+import { GalleryTab } from "./galleryTab";
 
 import styles from "./mainsec.module.css"
+import { RoomGallery } from "./roomGallery";
 import { ServicesBox } from "./servicesBox";
 
 export function MainSec() {
@@ -23,6 +25,20 @@ export function MainSec() {
               </p>
            
               <ServicesBox/>
+           </div>
+
+
+           <div className={styles.featuressection}>
+              <Button/>
+              <h2>Our Rooms Gallery</h2>
+              <p>
+                 Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.
+              </p>
+
+              <GalleryTab/>
+              <RoomGallery/>
+           
+             
            </div>
           
         </section>
