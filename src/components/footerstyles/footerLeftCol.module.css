@@ -1,0 +1,25 @@
+.footerleftcol {
+    width: 400px;
+}
+
+.footerleftcol .contactus {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footerleftcol .contactus p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #262626;
+
+}
+
+.footerleftcol .contactus img {
+    background-color: #FFF5F0;
+    border: 2px solid #262626;
+    border-radius: 6px;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+}

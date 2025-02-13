@@ -6,14 +6,18 @@ import { FooterCol4 } from "./footerCol4";
 import { FooterCol5 } from "./footerCol5";
 import { FooterLeftCol } from "./footerLeftCol";
 
+import styles from "./footer.module.css"
+
 export function Footer() {
     return (
-        <div>
-            <FooterLeftCol/>
-            <FooterCol2/>
-            <FooterCol3/>
-            <FooterCol4/>
-            <FooterCol5/>
+        <div className={styles.footer}>
+            <div className={styles.footerrow}>
+             <FooterLeftCol/>
+             <FooterCol2/>
+             <FooterCol3/>
+             <FooterCol4/>
+             <FooterCol5/>
+            </div>
 
             <BeforeCopyRight/>
             <CopyRight/>

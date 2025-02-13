@@ -1,0 +1,38 @@
+.footer {
+    background-color: #fff;
+    margin: 100px 50px 50px 50px;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    padding: 90px 90px 40px 90px;
+
+}
+
+.footer .footerrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul {
+    padding: 0;
+    gap: 14px;
+    display: grid;
+}
+
+.footer  ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+
+}
+
+.footer h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #262626;
+
+}
