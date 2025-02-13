@@ -16,3 +16,11 @@
     height: 20px;
 }
 
+@media screen and (max-width:767px) {
+    .topnav {
+        width: 350px;
+        margin: 18px 20px;
+        background-image: url("src/assets/topnav-mobile.png");
+        background-size: cover !important;
+    }
+}

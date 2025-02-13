@@ -16,3 +16,13 @@
 .gallerytab button:hover {
     background-color: #FFEFE5;
 }
+
+@media screen and (max-width:767px) {
+    .gallerytab {
+        overflow-x: auto;
+        justify-content: normal;
+    }
+    .gallerytab button {
+        font-size: 14px;
+    }
+}

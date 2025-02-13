@@ -1,0 +1,23 @@
+.menuicon img {
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    .menuicon img {
+        display: block;
+        width: 30px !important;
+        padding-right: 15px;
+    }
+    .menu ul {
+        display: none !important;
+    }
+    .menuicon:before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background-color: #000;
+        top: 0;
+        right: 60px;
+    }
+}

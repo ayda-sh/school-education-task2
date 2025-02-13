@@ -11,7 +11,6 @@
 
 .mainnav ul {
     display: flex;
- 
 }
 
 .mainnav ul li {
@@ -35,7 +34,17 @@
     
 }
 
-
-
+@media screen and (max-width:767px) {
+    .mainnav {
+        width: 350px;
+        margin: 18px 20px;
+       
+    }
+    .mainnav img:first-child {
+        width: 170px;
+    }
+    
+    
+}
 
 

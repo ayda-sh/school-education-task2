@@ -23,3 +23,10 @@
     height: 20px;
     padding: 8px;
 }
+
+
+@media screen and (max-width:767px)  {
+    .footerleftcol {
+        text-align: center;
+    }
+}

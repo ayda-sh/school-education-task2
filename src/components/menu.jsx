@@ -1,8 +1,10 @@
 import { Link } from "./link";
+import styles from "./responsive/menu.module.css"
 
 export function Menu() {
     return(
-        <ul>
+        <div className={styles.menu}>
+          <ul>
             <li>
               <Link/>
             </li>
@@ -22,5 +24,9 @@ export function Menu() {
               <Link/>
             </li>
         </ul>
+        <div className={styles.menuicon}>
+          <img src="src/assets/menuicon.svg" alt="" />
+        </div>
+        </div>
     )
 }

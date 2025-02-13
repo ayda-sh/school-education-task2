@@ -43,3 +43,18 @@
     color: #4C4C4D;
 
 }
+
+@media screen and (max-width:767px) {
+    .gallerybox .boxhead {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+    .gallerybox p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .imagerow img:nth-child(n + 2)  {
+        display: none;
+    }
+}

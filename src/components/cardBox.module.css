@@ -25,3 +25,9 @@
     color: #4C4C4D;
 
 }
+
+@media screen and (max-width:767px) {
+    .cardbox {
+        width: 300px;
+    }
+}

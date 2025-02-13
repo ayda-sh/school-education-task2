@@ -33,3 +33,16 @@
     padding: 8px;
 }
 
+@media screen and (max-width:767px)  {
+    .beforecopyright {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .beforecopyright .rules ul li a {
+        font-weight: 500;
+        font-size: 13px;
+    
+    }
+}
